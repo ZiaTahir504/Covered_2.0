@@ -8,7 +8,7 @@ const Tab = createMaterialTopTabNavigator();
 
 export default function MyTabs() {
     return (
-        <Tab.Navigator>
+        <Tab.Navigator swipeEnabled={false}>
             <Tab.Screen name="swiping" component={PickingScreen} />
             <Tab.Screen name="favs" component={FavBookScreen} />
         </Tab.Navigator>

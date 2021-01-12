@@ -1,10 +1,12 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
-export default function PickingScreen({ navigation }) {
+import Cover from '../components/Cover';
+
+export default function PickingScreen() {
     return(
         <View>
-            <Text>Picking Screen</Text>
+            <Cover />
         </View>
     );
 }
