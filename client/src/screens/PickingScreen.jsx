@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     width: '20%',
   },
   submitButtonText: {
-    color: '#ED254E',
+    color:'#ED254E',
   },
 });
 
