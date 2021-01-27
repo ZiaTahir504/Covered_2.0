@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { View, Text } from 'react-native';
 
-export default function FavBookScreen() {
+export default function BookStoresMap({ navigation }) {
   return (
     <View>
-      <Text>Fav Book Screen</Text>
+      <Text>book stores screen</Text>
     </View>
   );
 }
